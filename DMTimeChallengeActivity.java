@@ -4,10 +4,10 @@ import android.content.Context;
 import android.graphics.Color;
 import android.net.nsd.NsdManager;
 import android.net.nsd.NsdServiceInfo;
+import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -52,6 +52,7 @@ public class DMTimeChallengeActivity extends AppCompatActivity implements View.O
     private ImageView numberTwo;
     private TextView phaseNameStartedChallenge;
     private TextView phaseTimer;
+
 
     public void showToast(final String toast){
         DMTimeChallengeActivity.this.runOnUiThread(new Runnable(){
